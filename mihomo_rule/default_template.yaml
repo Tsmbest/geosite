@@ -254,7 +254,7 @@ rule-providers:
     url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.mrs"
   pt:
     <<: *domain
-    url: "https://raw.githubusercontent.com/windsailor0306/geosite/refs/heads/main/openclash_rule/pt.mrs"
+    url: "https://raw.githubusercontent.com/windsailor0306/geosite/refs/heads/main/mihomo_rule/pt.mrs"
 
   private_ip:
     <<: *ip
