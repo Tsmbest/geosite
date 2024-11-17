@@ -65,7 +65,7 @@ dns:
   ipv6: false
   respect-rules: true
   default-nameserver:
-    - 8.8.8.8
+    - 61.132.163.68
   nameserver:
     - "https://dns.cloudflare.com/dns-query#自动选择"
     - "https://dns.google/dns-query#自动选择"
