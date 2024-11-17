@@ -1,20 +1,20 @@
 # url 里填写自己的订阅,名称不能重复
 proxy-providers:
   provider1:
-    url: "http://127.0.0.1:38324/download/%E5%A4%A7%E7%B1%B3%E6%9C%BA%E5%9C%BA?target=ClashMeta"
+    url: ""
     type: http
     interval: 86400
     health-check: {enable: true,url: "https://www.gstatic.com/generate_204",interval: 300}
     override:
-      additional-prefix: "[BigMe]"
+      additional-prefix: "[]"
 
   provider2:
-    url: "http://127.0.0.1:38324/download/%E8%A5%BF%E6%95%B0%E6%9C%BA%E5%9C%BA?target=ClashMeta"
+    url: ""
     type: http
     interval: 86400
     health-check: {enable: true,url: "https://www.gstatic.com/generate_204",interval: 300}
     override:
-      additional-prefix: "[WD]"
+      additional-prefix: "[]"
       
 proxies: 
   - name: "直连"
