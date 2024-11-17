@@ -6,7 +6,7 @@ proxy-providers:
     interval: 86400
     health-check: {enable: true,url: "https://www.gstatic.com/generate_204",interval: 300}
     override:
-      additional-prefix: "[]"
+      additional-prefix: "[provider1]"
 
   provider2:
     url: ""
@@ -14,7 +14,7 @@ proxy-providers:
     interval: 86400
     health-check: {enable: true,url: "https://www.gstatic.com/generate_204",interval: 300}
     override:
-      additional-prefix: "[]"
+      additional-prefix: "[provider2]"
       
 proxies: 
   - name: "直连"
